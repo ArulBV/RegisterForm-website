@@ -1,0 +1,190 @@
+*
+	{
+		margin: 0;
+		padding: 0;
+	}
+body,html
+{
+	background-color: rgb(37,61,75);
+	height: 100%;
+	overflow: hidden;
+}
+#container
+{
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border:1px;
+	border-radius:5px;
+	transform: translate(-50%,-50%);
+	background-color: transparent;
+
+}
+#dots
+{
+	width: 100%;
+	min-height: 100%;
+}
+#cont
+{
+	border-radius: 5px 0px 0px 5px;
+	position: absolute;
+	overflow: hidden;
+	width: 60%;
+	height: 100%;
+	font-size: 100%;
+	background-color: rgba(0,0,0,0.6);
+}
+#frm
+{
+	border-radius:0px 5px 5px 0px; 
+	position: absolute;
+	overflow: hidden;
+	left:60%;
+	width: 40%;
+	height: 100%;
+	background-color: white;
+}
+ul
+{
+	list-style-type: disc;
+	list-style-position: inside;
+	color: white;
+	padding: 10px;
+	font-family: "century gothic";
+}
+ul li
+{
+	padding: 2px;
+}
+.button 
+{
+	display: none;
+}
+.bbutton
+{
+	display: none;
+}
+.abt
+{
+	padding:0px 10px 20px 10px;
+	font-weight: lighter;
+	color: white;
+	font-family: "century gothic";
+}
+.tb
+{
+	margin: 10px;
+	width:60%;
+	height: 40px;
+	border-bottom:1px solid black;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+#lo
+{
+	margin: 20px;
+}
+h3
+{
+	margin: 20px;
+	color:rgb(92,189,170);
+}
+h2
+{
+	margin: 5px;
+	color: white;
+}
+
+.sbutton
+{
+	margin: 10px;
+	display: block;
+	width: 60%;
+	height: 40px;
+	background-color:rgb(92,189,170);
+	border: 1px solid rgb(92,189,170);
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+vertical-align: middle;
+line-height: 40px;
+	font-size: 120%;
+}
+.sbutton:hover
+{
+	transition: 0.5s;
+	background-color: white;
+	color: rgb(92,189,170);
+}
+ @media screen and (max-width: 768px)
+ {
+#cont
+{	
+position: absolute;
+width: 100%;
+height: 100%;
+font-size: 90%;
+background-color: rgba(0,0,0,0.6);
+z-index: 1;
+border-radius: 5px;
+}
+#frm
+{
+display: none;
+position: relative;
+width: 100%;
+height: 100%;
+left: 0;
+border-radius: 5px;
+background-color: white;
+}
+.button
+{
+	display: block;
+	width: 60%;
+	height: 40px;
+	background-color: transparent;
+	border: 1px solid rgb(92,189,170);
+	border-radius: 50px;
+	color: white;
+	font-size: 120%;
+	margin-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+vertical-align: middle;
+line-height: 40px;
+}
+.button:hover
+{
+	transition: 0.5s;
+	background-color:rgb(92,189,170);
+	border: 1px solid rgb(92,189,170);
+	color:white;
+}
+.bbutton
+{
+	margin: 10px;
+	display: block;
+	width: 60%;
+	height: 40px;
+	background-color: rgb(92,189,170);
+	border: 1px solid white;
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+vertical-align: middle;
+line-height: 40px;
+	font-size: 120%;
+}
+.bbutton:hover
+{
+	transition: 0.5s;
+	background-color: white;
+	color: rgb(92,189,170);
+	border: 1px solid rgb(92,189,170);
+}
+}
